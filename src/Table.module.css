@@ -1,0 +1,76 @@
+body{
+    height: 100vh;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 50% auto;
+    margin-bottom: 20px;
+    background-color: rgb(133, 133, 133);
+    padding: 24px;
+    color: white;
+    font-weight: 700;
+}
+
+.form button {
+    background-color:#00ff37;
+    font-size: 16px;
+    font-weight: 800;
+    border: none;
+    border-radius: 12px;
+    width: 8%;
+    padding: 1%;
+}
+
+input[type="text"] {
+    border: none;
+    padding: 6px;
+    font-size: 16px;
+    width: 100%;
+    background-color: #04AA6D;
+    border-radius: 10px;
+}
+
+.table {
+    background-color: antiquewhite;
+    border: 2px solid black;
+    width: 100%;
+}
+
+.thead {
+    background-color: #04AA6D;
+}
+
+.th {
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+
+.td {
+    background-color: #ebebeb;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.updateBut {
+    background-color:#00ff37;
+    font-size: 16px;
+    font-weight: 800;
+    border: none;
+    border-radius: 12px;
+    width: 100%;
+    padding: 8%;
+}
+
+.deleteBut {
+    background-color:#ff0000;
+    font-size: 16px;
+    font-weight: 800;
+    border: none;
+    border-radius: 12px;
+    width: 100%;
+    padding: 8%;
+}
